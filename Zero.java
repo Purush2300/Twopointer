@@ -5,7 +5,7 @@ public class Zero {
         int l=0;
         
      for (int i = 1; i < a.length; i++) {
-        if(a[i]==k){
+        if(a[i]!=k){
             int temp=a[i];
             a[i]=a[l];
             a[l]=temp;
