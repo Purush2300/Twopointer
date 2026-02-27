@@ -14,12 +14,10 @@ public class Three {
             int min=Math.min(a[r], a[l]);
             int area=w*min;
             max=Math.max(max, area);
-            if(a[l]<a[r]){
+            if(a[l]>a[r]){
                 l++;
             }
-          else{
-            r--;
-          }
+          
 
         }
         System.out.println(max);
