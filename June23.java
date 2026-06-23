@@ -1,6 +1,6 @@
 public class June23 {
     public static void main(String[] args) {
-        int[]arr={1,1,2,28,8,8,3,1,1};
+        int[]arr={1,1,2,28,8-9,8,3,1,1};
         int target=4;
         int len=0;
         int sum=0;
